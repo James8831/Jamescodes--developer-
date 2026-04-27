@@ -1,0 +1,504 @@
+
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta charset="UTF-8">
+  <meta name="description" content="Jamescodes,is web developer building websites and apps">
+  <title>Jamescodes- Web Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<a href="https://wa.me/254714251840" class="whatsapp" target="_blank">
+  💬
+</a>
+
+
+  <!-- Header / Navigation -->
+  <header class="header">
+    <nav>
+      <h1><span class="snake2"  style="color:black;">J</span>a<span style="color:red;">m</span>e<span style="color:green;">s</span>codes</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h2>Hello, I’m James</h2>
+      <p>I  am <span id="typing"></span> Web Developer | Building interactive websites & apps</p>
+      <a href="#projects" class="btn">See My Work</a>
+    </div>
+  </header>
+
+
+
+  <!-- About Me -->
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" alt="Jamescodes" class="profile-pic">
+      <p>Hi! I'm James codes, a passionate web developer. I specialize in creating functional and visually appealing websites, from business portfolio websites,tools like calculators and weather app. My mission is to help clients grow their online presence through clean and interactive web solutions.</p>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    
+    <h2>My Projects</h2>
+    <div class="project-list">
+
+      <div class="project">
+        
+        <h3>Digital Calculator</h3>
+        <p>Responsive calculator built with HTML, CSS, and JS for quick and accurate calculations.</p>
+        <a href="projects/calculator.html" class="project-link">View Project</a>
+  
+  <a href="projects/calculator.html" target="_blank" class="project-btn">Live Demo</a>
+</div>
+      
+
+      <div class="project">
+        
+        <h3>Weather App</h3>
+        <p>Real-time weather app using API integration with dynamic styling based on current weather.</p>
+        <a href="projects/weather.html" class="project-link">View Project</a>
+        
+        <a href="projects/weather.html" target="_blank" class="project-btn">live Demo</a>
+        </div>
+        
+        
+      
+      <div class="project">
+        
+        
+        <h3>Business Portfolio</h3>
+        <p>Professional website template for businesses, showcasing services, testimonials, and contact info.</p>
+        <a href="projects/business.html"class="project-link">View Project</a>
+      
+      <a href="projects/business.html" target="_blank"class="project-btn">live Demo</a>
+      
+      </div>
+ </section>
+
+  <!-- Contact -->
+  <section id="contact">
+   <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 James Codes</p>
+    <div class="social-links">
+      <a href="#" target="_blank">LinkedIn</a> | 
+      <a href="#" target="_blank">GitHub</a> | 
+      <a href="#" target="_blank">Twitter</a>
+    </div>
+  </footer>
+  
+
+  
+  
+  <style>
+  
+  
+  
+  
+  
+  
+  .project {
+  transition: 0.3s;
+}
+
+.project:hover {
+  transform: translateY(-10px) scale(1.03);
+}
+
+.project-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 18px;
+  background: #10b981;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.project-btn:hover {
+  background: #059669;
+}
+  
+  
+  
+  
+  
+  
+  .whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  font-size: 24px;
+  padding: 15px;
+  border-radius: 50%;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.whatsapp:hover {
+  background: #1ebe5d;
+}
+  
+  
+  
+  
+  
+    /* Reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  scroll-behavior: smooth;
+  line-height: 1.6;
+  background-image:#f5f6fa;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e);
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  color: white;
+}
+  
+    
+  
+  
+  
+
+.header {background:linear-gradient(135deg, #1abc9c, #16a085);
+  color: #fff;;
+  
+ 
+  padding: 3rem 1rem;
+  margin-bottom:5rem;
+  border-radius:20px;
+  margin-top:10px;
+  padding:20px;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+nav h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #f1c40f;
+}
+
+.hero h2 {
+  margin-top: 2rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  animation: fadeInDown 1s ease;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+  animation: fadeInUp 1s ease;
+}
+
+.btn {margin-left:150px;
+  display: inline-block;
+  margin-top:0rem;
+  margin-bottom:0rem;
+  padding: 0.8rem 2rem;
+  background: #f1c40f;
+  color:#2c3e50;
+  text-decoration: none;
+  font-weight:bold;
+  border-radius: 5px;
+  transition: background 0.3s;
+  
+  
+}
+
+.btn:hover {
+  background: #d4ac0d;
+  
+}
+
+/* About Me */
+section {
+  padding: 4rem 1rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  color:#5064f6;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+
+/* Projects */
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.project {background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                   url(https://images.unsplash.com/photo-1486406146926-c627a92ad1ab);
+  padding: 1rem;
+  flex: 1 1 280px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project img {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.project h3 {
+  margin-bottom: 0.5rem;
+  color:#16a085;
+}
+
+.project-link {
+  margin-top: 0.5rem;
+  display: inline-block;
+  text-decoration: none;
+  color: #f1c40f;
+  font-weight: bold;
+}
+
+.project:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+}
+
+/* Contact Form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 500px;
+  margin: auto;
+}
+
+input, textarea {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 0.8rem;
+  border: none;
+  background: #16a085;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #138d75;
+}
+
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #16a085;
+  
+  
+}
+
+
+
+
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: #2c3e50;
+  color: #fff;
+}
+
+.social-links a {
+  color: #f1c40f;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+.social-links a:hover {
+  color: #fff;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .project-list {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Animations */
+@keyframes fadeInDown {
+  0% { opacity: 0; transform: translateY(-30px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+  0% { opacity: 0; transform: translateY(30px); }
+  100% { opacity: 1; transform: translateY(0); }
+
+
+
+
+  </style>
+  
+  
+  
+
+  <script>
+    // Smooth scroll
+const navLinks = document.querySelectorAll('nav ul li a');
+navLinks.forEach(link => {
+  link.addEventListener('click', function(e){
+    e.preventDefault();
+    const target = document.querySelector(this.getAttribute('href'));
+    target.scrollIntoView({ behavior: 'smooth' });
+  });
+});
+
+// Contact form alert
+const form = document.getElementById('contact-form');
+form.addEventListener('submit', function(e){
+  e.preventDefault();
+  alert('Thank you for your message! I will get back to you soon.');
+  form.reset();
+});
+
+
+const text = ["Web Developer", "Frontend Developer", "Freelancer"];
+let index = 0;
+let charIndex = 0;
+let currentText = "";
+let isDeleting = false;
+
+function typeEffect() {
+  if (index >= text.length) index = 0;
+
+  currentText = text[index];
+
+  if (!isDeleting) {
+    document.getElementById("typing").textContent =
+      currentText.substring(0, charIndex++);
+  } else {
+    document.getElementById("typing").textContent =
+      currentText.substring(0, charIndex--);
+  }
+
+  if (!isDeleting && charIndex === currentText.length) {
+    isDeleting = true;
+    setTimeout(typeEffect, 1000);
+    return;
+  }
+
+  if (isDeleting && charIndex === 0) {
+    isDeleting = false;
+    index++;
+  }
+
+  setTimeout(typeEffect, isDeleting ? 50 : 100);
+}
+
+typeEffect();
+
+  
+  
+  
+  const buttons = document.querySelectorAll(".project-btn");
+
+buttons.forEach(btn => {
+  btn.addEventListener("click", () => {
+    btn.innerText = "Opening...";
+  });
+});
+
+
+  </script>
+</body>
+</html>
